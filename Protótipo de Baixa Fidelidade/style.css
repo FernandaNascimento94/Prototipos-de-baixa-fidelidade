@@ -1,0 +1,264 @@
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.sidebar h1 {
+  margin: 0 0 20px 0;
+  font-size: 1.8em;
+  font-weight: bold;
+  user-select: none;
+}
+.menu-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.menu-list li {
+  margin-bottom: 10px;
+}
+.menu-list button {
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+.menu-list button:hover {
+  background-color: #004080;
+}
+.menu-list .icon {
+  margin-right: 12px;
+  font-size: 1.3em;
+  line-height: 1;
+}
+#content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  overflow-y: auto;
+}
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h1 {
+  margin: 0 0 20px 0;
+  font-size: 1.8em;
+  font-weight: bold;
+  user-select: none;
+}
+
+.menu-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+}
+
+.menu-list button {
+  width: 100%;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.menu-list button:hover,
+.menu-list button.active {
+  background-color: #0059b3;
+  font-weight: bold;
+  box-shadow: inset 3px 0 0 0 #ffcc00;
+}
+
+.menu-list .icon {
+  margin-right: 12px;
+  font-size: 1.3em;
+  line-height: 1;
+}
+
+.menu-list button:focus {
+  outline: 2px solid #ffcc00;
+  outline-offset: 2px;
+}
+
+#content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+.btn-add {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: #0059b3;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #004080;
+}
+
+.filters label {
+  margin-right: 8px;
+}
+
+.filters select {
+  margin-right: 15px;
+  padding: 4px 8px;
+}
+  body {
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+    background: #fafafa;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  nav {
+    margin-bottom: 1rem;
+  }
+
+  nav button {
+    background-color: #0d6efd; /* azul bootstrap */
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+
+  nav button:hover {
+    background-color: #084cd6;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  }
+
+  thead {
+    background-color: #e9ecef;
+  }
+
+  th, td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #dee2e6;
+    text-align: left;
+  }
+
+  th {
+    font-weight: 600;
+  }
+
+  td button {
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    margin-right: 0.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+
+  td button:hover {
+    background-color: #084cd6;
+  }
+
+  .tabContent {
+    background: white;
+    padding: 1rem;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    border-radius: 6px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  form select, form input[type="text"] {
+    padding: 0.3rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 200px;
+    margin-top: 0.2rem;
+  }
+
+  form button[type="submit"] {
+    margin-top: 1rem;
+    background-color: #198754; /* verde bootstrap */
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  form button[type="submit"]:hover {
+    background-color: #146c43;
+  }
